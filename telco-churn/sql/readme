@@ -1,0 +1,63 @@
+# Telco Customer Churn — SQL Analysis
+
+## 📊 Project Overview
+This SQL project explores a telecom company's customer data to identify churn behavior and uncover key business insights. It focuses on querying raw data using SQL to extract actionable information prior to visualizations and modeling.
+
+## 🎯 Objectives
+- Analyze customer churn patterns using SQL queries
+- Break down churn by contract type, payment method, and demographics
+- Understand the behavior of churned vs loyal customers
+- Prepare data insights for visualization and business reporting
+
+---
+
+## 📁 Dataset Used
+- **File**: Telco-Customer-Churn.csv
+- **Fields**: CustomerID, Gender, SeniorCitizen, Partner, Dependents, Tenure, PhoneService, MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaperlessBilling, PaymentMethod, MonthlyCharges, TotalCharges, Churn
+
+---
+
+## ❓ Business Questions Answered Using SQL
+
+### 🧩 General Customer Insights
+1. **How many total customers are there?**
+2. **How many customers have churned vs stayed?**
+3. **What is the overall churn rate (percentage)?**
+
+### 📊 Churn by Contract Type and Services
+4. **What is the churn rate by contract type (Month-to-month, One year, Two year)?**
+5. **Which internet service type has the highest churn?**
+6. **What’s the average monthly charge of churned vs non-churned customers?**
+7. **Which payment method has the highest number of churned customers?**
+
+### 👥 Demographic Breakdown
+8. **Is there a difference in churn between senior citizens and non-senior citizens?**
+9. **What’s the churn count grouped by gender?**
+10. **How does having a partner or dependents affect churn?**
+
+### 📈 Usage and Tenure Patterns
+11. **Do customers with higher MonthlyCharges churn more than those with lower charges?**
+12. **What is the average tenure of churned vs loyal customers?**
+13. **Group customers into tenure buckets (e.g., 0–12, 13–24, etc.). What’s the churn rate per group?**
+14. **What’s the total revenue from churned customers?**
+
+### 🧠 Bonus: Risk Profile Logic
+15. **Create a churn risk score: Assign 1 if a customer has no partner, no dependents, is on a month-to-month contract, and has no online security. How many customers meet this high-risk churn profile?**
+
+---
+
+## 🛠 Tools Used
+- SQL (MySQL / PostgreSQL / SQLite)
+- DB Browser for SQLite (local testing)
+- Data preloaded from CSV file
+
+---
+
+## 📂 Files in This Folder
+- `telco_churn_queries.sql` – SQL code answering the above questions
+- `README.md` – This file
+
+---
+
+> ⚠️ *This project is for educational and portfolio purposes. Dataset sourced from Kaggle.*
+
