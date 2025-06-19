@@ -47,8 +47,7 @@ This SQL project explores a telecom company's customer data to identify churn be
 ---
 
 ## 🛠 Tools Used
-- SQL (MySQL / PostgreSQL / SQLite)
-- DB Browser for SQLite (local testing)
+- SQL (MySQL )
 - Data preloaded from CSV file
 
 ---
